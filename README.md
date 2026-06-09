@@ -8,7 +8,11 @@
 
 An advanced, highly customizable, and dark-mode-first Developer Profile Card built using functional React, Node.js + Express, and flat-file database storage. Features 4 unique visual layout themes and real-time Google Drive image URL resolving.
 
-🌐 **Production Link:** [https://frontend-beryl-two-18.vercel.app](https://frontend-beryl-two-18.vercel.app)
+🌐 **Live Demo:** [https://frontend-beryl-two-18.vercel.app](https://frontend-beryl-two-18.vercel.app)
+🔌 **Live API:** [https://frontend-beryl-two-18.vercel.app/api/profile](https://frontend-beryl-two-18.vercel.app/api/profile)
+📦 **GitHub:** [https://github.com/PiyushTiwari2051/ProfileCard](https://github.com/PiyushTiwari2051/ProfileCard)
+
+> ⚡ Fully serverless — both frontend and API run on Vercel. No external backend required.
 
 ---
 
