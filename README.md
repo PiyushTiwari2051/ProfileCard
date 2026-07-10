@@ -16,31 +16,31 @@ An advanced, highly customizable, and dark-mode-first Developer Profile Card bui
 
 ---
 
-## 🎨 Visual Showcase & Themes
+# 🎨 Visual Showcase & Themes
 
 Toggle between 4 custom templates in real-time right inside the editor to completely transform the card's visual identity:
 
-## 1. 🔮 Glassmorphic Indigo (Default)
+# 1. 🔮 Glassmorphic Indigo (Default)
 - **Vibe:** Sleek modern SaaS container.
 - **Visuals:** High-blur backdrop-filters, subtle top-edge shimmer animations, floating ambient background glow blobs, and conic-gradient avatar rings.
 
-## 2. ⚡ Cyberpunk Neon
+# 2. ⚡ Cyberpunk Neon
 - **Vibe:** Retro futuristic hacker space.
 - **Visuals:** Grid pattern backdrop overlay, hot pink/cyan neon glowing borders, monospace typography badges, and sharp box-shadow details.
 
-## 3. 📰 Minimalist Editorial
+# 3. 📰 Minimalist Editorial
 - **Vibe:** Quiet luxury architectural slate.
 - **Visuals:** Pure flat dark slate container with strict fine borders, Georgia serif display headers, zero animation distractions, and high-end editorial alignment.
 
-## 4. 🌿 Warm Organic
+# 4. 🌿 Warm Organic
 - **Vibe:** Earthy natural warmth.
 - **Visuals:** Olive-sage dark backgrounds, terracotta CTA styling, warm cream badge outlines, and smooth organic card curves.
 
 ---
 
-## ⚙️ Core Technical Features
+# ⚙️ Core Technical Features
 
-## 🖼️ Auto Google Drive Image Converter
+# 🖼️ Auto Google Drive Image Converter
 Normally, Google Drive image sharing URLs fail inside raw `<img>` source tags. This project embeds a regex compiler in both the view and edit modes to parse documents, extract unique file IDs, and link them to direct CDN endpoints:
 ```javascript
 const driveRegex = /(?:drive\.google\.com\/(?:file\/d\/|open\?id=)|docs\.google\.com\/file\/d\/)([a-zA-Z0-9_-]{25,})/;
@@ -48,14 +48,14 @@ const driveRegex = /(?:drive\.google\.com\/(?:file\/d\/|open\?id=)|docs\.google\
 // Into direct source:  https://lh3.googleusercontent.com/d/FILE_ID
 ```
 
-##⚡ Real-Time Theme Rendering
+#⚡ Real-Time Theme Rendering
 The editor layout wraps in `<div className={`page-wrapper theme-${formData.template}`}>`. Clicking any visual theme selector instantly transforms the container, inputs, buttons, and backgrounds.
 
-## 🛡️ Dirty-State Validation
+# 🛡️ Dirty-State Validation
 The form calculates mutations dynamically against original database objects. The `Save` button automatically disables when no changes are present, preventing empty or redundant API queries.
 
 ---
-## 🏗️ Architecture Flow
+# 🏗️ Architecture Flow
 
 ```mermaid
 graph TD
